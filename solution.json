@@ -1,0 +1,142 @@
+{
+  "abstract": "Estimate achievable X-gate speeds and fidelities for a Yb-171 nuclear qubit using Raman transfer via a long-lived inner-shell J=2 intermediate (with 1 W/cm^2 available), limited by hyperfine splitting versus intermediate lifetime, and report gate-time vs target-infidelity tradeoffs (10^-2-10^-5).",
+  "artifacts": [
+    {
+      "kind": "github_repo",
+      "label": "GitHub Repo",
+      "uri": "https://github.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8"
+    },
+    {
+      "kind": "paper_pdf",
+      "label": "Paper PDF",
+      "uri": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/main.pdf"
+    },
+    {
+      "kind": "paper_thumbnail",
+      "label": "Paper Thumbnail",
+      "uri": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/thumbnail.png"
+    },
+    {
+      "kind": "latex_sources",
+      "label": "LaTeX Sources",
+      "uri": "https://github.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/blob/main/paper/main.tex"
+    }
+  ],
+  "artifacts_summary": "Resumed writing_presentation completed with a compile-ready conference-template manuscript, synchronized bibliography and equation-usage exports, and refreshed execution evidence for the manual resume iteration.",
+  "compute_budget": "1 APU, Apple Silicon, 128GB",
+  "constraints": [
+    "Available optical intensity is fixed at 1 W/cm^2.",
+    "Qubit encoding fixed to Yb-171 3P0 with F=1/2 two-level manifold.",
+    "Gate mechanism constrained to Raman transfer through inner-shell J=2 intermediate.",
+    "Tradeoff table must cover target infidelities 10^-2, 10^-3, 10^-4, and 10^-5.",
+    "Deadline indicated as 2026-03-11."
+  ],
+  "context_id": "79511904-9604-483a-9afe-21038b35f3a8",
+  "created_at": "2026-03-11T23:24:50.483936+00:00",
+  "difficulty": "Frontier",
+  "domain": "Quantum Computing",
+  "evaluation_plan": "Produce a quantitative table of estimated gate times/speeds achievable at fixed 1 W/cm^2 for fidelity targets 1-10^-2, 1-10^-3, 1-10^-4, and 1-10^-5; compare regimes and identify the fastest operating point satisfying infidelity <=10^-3.",
+  "expected_artifacts": [
+    "Paper",
+    "Code"
+  ],
+  "full_description": "The user requests a feasibility estimate for Raman-driven X gates on a Yb-171 nuclear qubit encoded in the 3P0 F=1/2 manifold, using an inner-shell-excited J=2 intermediate state reached through a weak electric-quadrupole pathway. The core tradeoff is gate speed versus achievable infidelity under finite laser intensity (1 W/cm^2), with error behavior framed by hyperfine splitting relative to intermediate-state lifetime. Resource context supports that the Yb inner-shell 4f^13 5d6s^2 (J=2) transition is experimentally observed and weakly allowed with resolved hyperfine/Zeeman structure, while earlier theory identifies this J=2 manifold as metastable and relevant for precision-clock operation. The requested output is a quantitative gate-time versus target-infidelity summary over 10^-2, 10^-3, 10^-4, and 10^-5, prioritizing fastest gates at <=10^-3 infidelity.",
+  "goals": [
+    "Estimate achievable X-gate speed for Yb-171 3P0 nuclear qubit using Raman transfer via inner-shell J=2 intermediate.",
+    "Estimate achievable gate fidelity under 1 W/cm^2 available intensity.",
+    "Quantify gate-time versus target-infidelity tradeoffs for targets 10^-2, 10^-3, 10^-4, and 10^-5.",
+    "Prioritize fastest gate regime meeting <=10^-3 infidelity."
+  ],
+  "key_terms": [
+    "Yb-171",
+    "3P0",
+    "nuclear qubit",
+    "F=1/2",
+    "X-gate",
+    "Raman transfer",
+    "inner-shell excited state",
+    "4f^13 5d6s^2",
+    "J=2",
+    "electric quadrupole transition",
+    "hyperfine splitting",
+    "intermediate-state lifetime",
+    "gate infidelity",
+    "gate time",
+    "magic wavelength",
+    "hyperfine structure"
+  ],
+  "original_problem": {
+    "compute_budget": "1 APU, Apple Silicon, 128GB",
+    "constraints": [
+      "Available optical intensity is fixed at 1 W/cm^2.",
+      "Qubit encoding fixed to Yb-171 3P0 with F=1/2 two-level manifold.",
+      "Gate mechanism constrained to Raman transfer through inner-shell J=2 intermediate.",
+      "Tradeoff table must cover target infidelities 10^-2, 10^-3, 10^-4, and 10^-5.",
+      "Deadline indicated as 2026-03-11."
+    ],
+    "difficulty": "Frontier",
+    "domain": "Quantum Computing",
+    "evaluation_plan": "Produce a quantitative table of estimated gate times/speeds achievable at fixed 1 W/cm^2 for fidelity targets 1-10^-2, 1-10^-3, 1-10^-4, and 1-10^-5; compare regimes and identify the fastest operating point satisfying infidelity <=10^-3.",
+    "expected_artifacts": [
+      "Paper",
+      "Code"
+    ],
+    "full_description": "The user requests a feasibility estimate for Raman-driven X gates on a Yb-171 nuclear qubit encoded in the 3P0 F=1/2 manifold, using an inner-shell-excited J=2 intermediate state reached through a weak electric-quadrupole pathway. The core tradeoff is gate speed versus achievable infidelity under finite laser intensity (1 W/cm^2), with error behavior framed by hyperfine splitting relative to intermediate-state lifetime. Resource context supports that the Yb inner-shell 4f^13 5d6s^2 (J=2) transition is experimentally observed and weakly allowed with resolved hyperfine/Zeeman structure, while earlier theory identifies this J=2 manifold as metastable and relevant for precision-clock operation. The requested output is a quantitative gate-time versus target-infidelity summary over 10^-2, 10^-3, 10^-4, and 10^-5, prioritizing fastest gates at <=10^-3 infidelity.",
+    "goals": [
+      "Estimate achievable X-gate speed for Yb-171 3P0 nuclear qubit using Raman transfer via inner-shell J=2 intermediate.",
+      "Estimate achievable gate fidelity under 1 W/cm^2 available intensity.",
+      "Quantify gate-time versus target-infidelity tradeoffs for targets 10^-2, 10^-3, 10^-4, and 10^-5.",
+      "Prioritize fastest gate regime meeting <=10^-3 infidelity."
+    ],
+    "key_terms": [
+      "Yb-171",
+      "3P0",
+      "nuclear qubit",
+      "F=1/2",
+      "X-gate",
+      "Raman transfer",
+      "inner-shell excited state",
+      "4f^13 5d6s^2",
+      "J=2",
+      "electric quadrupole transition",
+      "hyperfine splitting",
+      "intermediate-state lifetime",
+      "gate infidelity",
+      "gate time",
+      "magic wavelength",
+      "hyperfine structure"
+    ],
+    "problem_type": "Open Question",
+    "related_links": [
+      "https://exphy.hhu.de/fileadmin/redaktion/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Physik/AG_Schiller/documents/Dzuba_et_al_Testing_physics_beyond_the_standard_model_through_additional_clock_transitions_in_neutral_ytterbium_2018.pdf",
+      "https://link.aps.org/accepted/10.1103/PhysRevLett.120.173001",
+      "https://link.aps.org/pdf/10.1103/PhysRevA.106.013712",
+      "https://arxiv.org/abs/2303.09765"
+    ],
+    "request_text": "Title: Inner shell excited clock state gate\nAbstract: Estimate achievable X-gate speeds and fidelities for a Yb-171 nuclear qubit using Raman transfer via a long-lived inner-shell J=2 intermediate (with 1 W/cm^2 available), limited by hyperfine splitting versus intermediate lifetime, and report gate-time vs target-infidelity tradeoffs (10^-2-10^-5).\nFull Description: I want to make a good X-gate for qubits encoded in the 3P0 state in Yb-171. This is a nuclear qubit with F=1/2, so exactly two states. We want to make X-gates via Raman transfer with some intermediate state. The fidelity of such an X-gate is limited by the ratio of the hyperfine splitting over the lifetime of the intermediate state. In Yb-171, there are inner-shell-excited clock states available, where one of the f-shell electrons is excited to a d-state. The J=2 state is accessible using a electric quadrupole transition. This is a weak transition, so hard to excite, but the payoff is that the lifetime of the inner-shell excited state is practically infinite. Say I have 1 W/cm^2 of laser power available at the appropriate wavelength, what fidelity and what gatespeeds can we accomplish? Ideally the gate should be as fast as possible, with, say, 10^-3 infidelity or better. Maybe make a table with gatespeeds and fidelity targets 10^-2, 10^-3, 10^-4 and 10^-5.\nProblem Type: Open Question\nDifficulty: Frontier\nDomain: Quantum Computing\nOriginator: Marius-Constantin Dinu\nCompute Budget: 1 APU, Apple Silicon, 128GB\nTarget Deadline: 2026-03-11\nTags: quantum computing\nCategories: Quantum Computing\nExpected Artifacts: Paper, Code\nRelated Links: https://exphy.hhu.de/fileadmin/redaktion/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Physik/AG_Schiller/documents/Dzuba_et_al_Testing_physics_beyond_the_standard_model_through_additional_clock_transitions_in_neutral_ytterbium_2018.pdf, https://link.aps.org/accepted/10.1103/PhysRevLett.120.173001, https://link.aps.org/pdf/10.1103/PhysRevA.106.013712, https://arxiv.org/abs/2303.09765\nDataset Links: None",
+    "tags": [
+      "quantum computing"
+    ],
+    "target_deadline": "2026-03-11"
+  },
+  "paper_pdf_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/main.pdf",
+  "paper_thumbnail_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/thumbnail.png",
+  "pipeline_id": "79511904-9604-483a-9afe-21038b35f3a8",
+  "problem_type": "Open Question",
+  "related_links": [
+    "https://exphy.hhu.de/fileadmin/redaktion/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Physik/AG_Schiller/documents/Dzuba_et_al_Testing_physics_beyond_the_standard_model_through_additional_clock_transitions_in_neutral_ytterbium_2018.pdf",
+    "https://link.aps.org/accepted/10.1103/PhysRevLett.120.173001",
+    "https://link.aps.org/pdf/10.1103/PhysRevA.106.013712",
+    "https://arxiv.org/abs/2303.09765"
+  ],
+  "repo_url": "https://github.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8",
+  "request_text": "Title: Inner shell excited clock state gate\nAbstract: Estimate achievable X-gate speeds and fidelities for a Yb-171 nuclear qubit using Raman transfer via a long-lived inner-shell J=2 intermediate (with 1 W/cm^2 available), limited by hyperfine splitting versus intermediate lifetime, and report gate-time vs target-infidelity tradeoffs (10^-2-10^-5).\nFull Description: I want to make a good X-gate for qubits encoded in the 3P0 state in Yb-171. This is a nuclear qubit with F=1/2, so exactly two states. We want to make X-gates via Raman transfer with some intermediate state. The fidelity of such an X-gate is limited by the ratio of the hyperfine splitting over the lifetime of the intermediate state. In Yb-171, there are inner-shell-excited clock states available, where one of the f-shell electrons is excited to a d-state. The J=2 state is accessible using a electric quadrupole transition. This is a weak transition, so hard to excite, but the payoff is that the lifetime of the inner-shell excited state is practically infinite. Say I have 1 W/cm^2 of laser power available at the appropriate wavelength, what fidelity and what gatespeeds can we accomplish? Ideally the gate should be as fast as possible, with, say, 10^-3 infidelity or better. Maybe make a table with gatespeeds and fidelity targets 10^-2, 10^-3, 10^-4 and 10^-5.\nProblem Type: Open Question\nDifficulty: Frontier\nDomain: Quantum Computing\nOriginator: Marius-Constantin Dinu\nCompute Budget: 1 APU, Apple Silicon, 128GB\nTarget Deadline: 2026-03-11\nTags: quantum computing\nCategories: Quantum Computing\nExpected Artifacts: Paper, Code\nRelated Links: https://exphy.hhu.de/fileadmin/redaktion/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Physik/AG_Schiller/documents/Dzuba_et_al_Testing_physics_beyond_the_standard_model_through_additional_clock_transitions_in_neutral_ytterbium_2018.pdf, https://link.aps.org/accepted/10.1103/PhysRevLett.120.173001, https://link.aps.org/pdf/10.1103/PhysRevA.106.013712, https://arxiv.org/abs/2303.09765\nDataset Links: None",
+  "run_id": "5c652d5b-a066-4554-91b8-5f499dc6747d",
+  "session_id": "79511904-9604-483a-9afe-21038b35f3a8",
+  "tags": [
+    "quantum computing"
+  ],
+  "target_deadline": "2026-03-11",
+  "title": "Inner shell excited clock state gate",
+  "updated_at": "2026-03-11T23:24:50.804136+00:00"
+}
