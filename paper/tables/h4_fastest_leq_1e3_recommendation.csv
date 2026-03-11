@@ -1,0 +1,1 @@
+seed,inference_method,posterior_sample_count,discrepancy_scale,noise_floor,tau,feasible,T_tau_median_us,T_tau_ci90_width_us,chance_constraint_satisfaction_rate,out_of_sample_violation_rate,dominant_error_channel_entropy,detuning_hz,pulse_family

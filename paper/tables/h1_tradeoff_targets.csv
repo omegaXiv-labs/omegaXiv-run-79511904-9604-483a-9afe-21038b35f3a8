@@ -1,0 +1,5 @@
+tau,feasible,best_t_pi_us,best_epsilon_tot,dominant_error_channel,ci90_t_pi_low,ci90_t_pi_med,ci90_t_pi_high,best_detuning_hz,best_pulse_family
+0.01,True,0.1661,0.0061237,epsilon_leak,0.45402,0.47341,0.49292,4000000000.0,square
+0.001,False,,,none,,,,,
+0.0001,False,,,none,,,,,
+1e-05,False,,,none,,,,,

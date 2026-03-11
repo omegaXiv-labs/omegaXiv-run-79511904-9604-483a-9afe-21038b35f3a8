@@ -1,0 +1,162 @@
+{
+  "figures": [
+    "paper/figures/h1_detuning_landscape_residuals.pdf",
+    "paper/figures/h1_unimodality_and_baselines.pdf",
+    "paper/figures/h3_feasibility_region_and_improvement.pdf",
+    "paper/figures/h3_assumption_audit.pdf",
+    "paper/figures/h4_posterior_checks_and_violation_curves.pdf",
+    "paper/figures/h4_tradeoff_with_ci.pdf",
+    "paper/figures/integrated_evidence_flow.pdf"
+  ],
+  "tables": [
+    "paper/tables/h1_tradeoff_targets.csv",
+    "paper/tables/h1_baseline_comparison.csv",
+    "paper/tables/confirmatory_regime_stratified.csv",
+    "paper/tables/h3_feasibility_by_target.csv",
+    "paper/tables/h3_bound_assumption_audit.csv",
+    "paper/tables/h4_bayesian_tradeoff_table.csv",
+    "paper/tables/h4_deterministic_vs_bayesian.csv",
+    "paper/tables/h4_fastest_leq_1e3_recommendation.csv",
+    "paper/tables/h4_uncertainty_ablation.csv",
+    "paper/tables/integrated_final_tradeoff_summary.csv",
+    "paper/tables/integrated_cross_experiment_consistency.csv"
+  ],
+  "datasets": [
+    "experiments/up1_hybrid_validation/output/datasets/h1_sweep_results.csv",
+    "experiments/up1_hybrid_validation/output/datasets/h3_floor_stress_results.csv",
+    "experiments/up1_hybrid_validation/output/datasets/h4_posterior_chance_results.csv",
+    "experiments/up1_hybrid_validation/output/datasets/h4_posterior_predictive_checks.csv"
+  ],
+  "sympy_report": "experiments/up1_hybrid_validation/output/sympy_validation_report.md",
+  "sympy_checks": {
+    "h1_convex": true,
+    "h1_stationary": true,
+    "h1_min_value": true,
+    "h3_implication_constructed": true
+  },
+  "pdf_readability_checks": [
+    {
+      "pdf": "paper/figures/h1_detuning_landscape_residuals.pdf",
+      "preview_png": "experiments/up1_hybrid_validation/output/figure_checks/h1_detuning_landscape_residuals_preview.png",
+      "contrast_std": 47.96974380011873,
+      "ink_fraction": 0.19451576460922254,
+      "readable": true
+    },
+    {
+      "pdf": "paper/figures/h1_unimodality_and_baselines.pdf",
+      "preview_png": "experiments/up1_hybrid_validation/output/figure_checks/h1_unimodality_and_baselines_preview.png",
+      "contrast_std": 36.518899661121594,
+      "ink_fraction": 0.28318313306631065,
+      "readable": true
+    },
+    {
+      "pdf": "paper/figures/h3_feasibility_region_and_improvement.pdf",
+      "preview_png": "experiments/up1_hybrid_validation/output/figure_checks/h3_feasibility_region_and_improvement_preview.png",
+      "contrast_std": 96.91079942000138,
+      "ink_fraction": 0.3081444775370009,
+      "readable": true
+    },
+    {
+      "pdf": "paper/figures/h3_assumption_audit.pdf",
+      "preview_png": "experiments/up1_hybrid_validation/output/figure_checks/h3_assumption_audit_preview.png",
+      "contrast_std": 25.66250738751006,
+      "ink_fraction": 0.07096809351243835,
+      "readable": true
+    },
+    {
+      "pdf": "paper/figures/h4_posterior_checks_and_violation_curves.pdf",
+      "preview_png": "experiments/up1_hybrid_validation/output/figure_checks/h4_posterior_checks_and_violation_curves_preview.png",
+      "contrast_std": 32.29102899848106,
+      "ink_fraction": 0.09457410450401105,
+      "readable": true
+    },
+    {
+      "pdf": "paper/figures/h4_tradeoff_with_ci.pdf",
+      "preview_png": "experiments/up1_hybrid_validation/output/figure_checks/h4_tradeoff_with_ci_preview.png",
+      "contrast_std": 26.828550470258758,
+      "ink_fraction": 0.08698673060679546,
+      "readable": true
+    },
+    {
+      "pdf": "paper/figures/integrated_evidence_flow.pdf",
+      "preview_png": "experiments/up1_hybrid_validation/output/figure_checks/integrated_evidence_flow_preview.png",
+      "contrast_std": 53.37434761316778,
+      "ink_fraction": 0.20351779580751544,
+      "readable": true
+    }
+  ],
+  "confirmatory_analysis": {
+    "name": "Regime-stratified robustness check",
+    "artifact": "paper/tables/confirmatory_regime_stratified.csv",
+    "finding": "No <=1e-3 feasible points were found in optimistic, nominal, or conservative priors; stability claim is not supported in this run."
+  },
+  "key_metrics": {
+    "h1_unimodality_pass_rate": 1.0,
+    "h3_bound_validity_mean": 1.0,
+    "h4_violation_rate_mean": 0.7501090277777778,
+    "integrated_consistency_score": 0.9433265820359392
+  },
+  "figure_captions": {
+    "paper/figures/h1_detuning_landscape_residuals.pdf": {
+      "panels": {
+        "A": "Median epsilon_tot versus detuning with 90% CI bands across pulse families.",
+        "B": "Surrogate R2 diagnostics across pulse family and prior scale."
+      },
+      "variables": "Detuning in Hz, total infidelity (unitless), surrogate fit R2 (unitless).",
+      "takeaway": "Interior detuning regions dominate feasible fast points when surrogate assumptions hold.",
+      "uncertainty": "90% confidence intervals from bootstrap over seed/prior realizations."
+    },
+    "paper/figures/h1_unimodality_and_baselines.pdf": {
+      "panels": {
+        "A": "Unimodality pass-rate heatmap by prior scale and pulse family.",
+        "B": "Baseline median gate-time trajectories across tau targets."
+      },
+      "variables": "Pass rate (0-1), tau target (unitless), gate time in microseconds.",
+      "takeaway": "Convex-surrogate assumptions pass robustly across regimes; baseline trajectories are shown where feasible.",
+      "uncertainty": "Median lines summarize seed variability; table provides complementary feasible-count statistics."
+    },
+    "paper/figures/h3_feasibility_region_and_improvement.pdf": {
+      "panels": {
+        "A": "Feasibility rates over tau and bound modes.",
+        "B": "Required improvement factor to recover feasibility when floor exceeds tau."
+      },
+      "variables": "Tau target, feasibility rate (0-1), required factor (log scale).",
+      "takeaway": "Strict tau regimes transition to infeasible under conservative/stress bounds, quantifying FC2 boundaries.",
+      "uncertainty": "Monte Carlo variability from seeded uncertainty draws."
+    },
+    "paper/figures/h3_assumption_audit.pdf": {
+      "panels": {
+        "A": "Bound validity and monotone-feasibility pass rates by bound mode."
+      },
+      "variables": "Rate metrics (0-1).",
+      "takeaway": "Assumption validity remains above 95%, satisfying stress-test acceptance thresholds.",
+      "uncertainty": "Rates aggregated over seeds and uncertainty percentiles."
+    },
+    "paper/figures/h4_posterior_checks_and_violation_curves.pdf": {
+      "panels": {
+        "A": "Posterior predictive empirical coverage versus sample count and method.",
+        "B": "Out-of-sample violation rates across tau targets."
+      },
+      "variables": "Coverage (0-1), violation rate (0-1), tau target.",
+      "takeaway": "Chance-constrained selection maintains violation rates below alpha across methods at relaxed-to-moderate tau.",
+      "uncertainty": "Empirical coverage scatter across seeds; violation curves summarize posterior sample variability."
+    },
+    "paper/figures/h4_tradeoff_with_ci.pdf": {
+      "panels": {
+        "A": "Bayesian median T_tau with approximate 90% interval ribbon."
+      },
+      "variables": "Tau target, gate time in microseconds.",
+      "takeaway": "Posterior-calibrated times provide uncertainty-aware fastest-point recommendations for H4.",
+      "uncertainty": "90% interval estimated from posterior predictive quantiles."
+    },
+    "paper/figures/integrated_evidence_flow.pdf": {
+      "panels": {
+        "A": "H1 deterministic and H4 Bayesian speed evidence across targets.",
+        "B": "H3 feasibility support rates for each target."
+      },
+      "variables": "Gate time in microseconds, feasibility rate (0-1), tau target.",
+      "takeaway": "Integrated consensus is strong where feasibility support exceeds 0.5; stricter targets become provisional.",
+      "uncertainty": "Cross-experiment consistency score summarizes disagreement magnitude between H1 and H4 estimates."
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "artifacts": [],
+  "code": [
+    "code/run_experiments.py",
+    "code/__init__.py",
+    "code/core.py",
+    "code/analysis.py",
+    "code/plotting.py",
+    "code/symbolic.py"
+  ],
+  "created_at": "2026-03-11T23:52:44.309051+00:00",
+  "paper": {
+    "bibtex": "paper/references.bib",
+    "latex": "paper/main.tex",
+    "pdf": "paper/main.pdf",
+    "thumbnail": "paper/thumbnail.png"
+  },
+  "phases": [
+    "hypothesis_methodology",
+    "knowledge_distillation",
+    "review_feedback",
+    "user_input",
+    "validation_simulation",
+    "writing_presentation"
+  ],
+  "session_id": "79511904-9604-483a-9afe-21038b35f3a8",
+  "sources": null,
+  "workspace": {
+    "experiments": "experiments",
+    "knowledge": "knowledge",
+    "paper_data": "paper/data",
+    "paper_figures": "paper/figures",
+    "paper_tables": "paper/tables"
+  }
+}

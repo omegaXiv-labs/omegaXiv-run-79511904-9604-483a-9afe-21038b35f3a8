@@ -1,0 +1,244 @@
+\begin{thebibliography}{29}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aryan et~al.(2025)Aryan, Natarajan, et~al.]{S24}
+A.~Aryan, S.~Natarajan, et~al.
+\newblock Comprehensive analysis of radiative frequencies and matrix elements
+  in neutral ytterbium, 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.13375}.
+
+\bibitem[atom collaboration(2024)]{S34}
+Neutral atom collaboration.
+\newblock A high-fidelity hadamard gate in a neutral atom quantum computer,
+  2024.
+\newblock URL \url{https://arxiv.org/abs/2408.11031}.
+
+\bibitem[Beloy(2018)]{S10}
+K.~Beloy.
+\newblock Hyper-ramsey spectroscopy with probe-laser-intensity fluctuations.
+\newblock \emph{Physical Review A}, 2018.
+\newblock \doi{10.1103/PhysRevA.97.031406}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.97.031406}.
+
+\bibitem[Bothwell et~al.(2025)Bothwell, Hunt, Siegel, Hassan, Grogan,
+  Kobayashi, Gibble, Porsev, Safronova, Brown, Beloy, and Ludlow]{S16}
+Tobias Bothwell, Benjamin~D. Hunt, Jacob~L. Siegel, Youssef~S. Hassan, Tanner
+  Grogan, Takumi Kobayashi, Kurt Gibble, Sergey~G. Porsev, Marianna~S.
+  Safronova, Roger~C. Brown, Kyle Beloy, and Andrew~D. Ludlow.
+\newblock Lattice light shift evaluations in a dual-ensemble yb optical lattice
+  clock.
+\newblock \emph{Physical Review Letters}, 2025.
+\newblock \doi{10.1103/PhysRevLett.134.033201}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevLett.134.033201}.
+
+\bibitem[Dzuba et~al.(2018)Dzuba, Flambaum, and Schiller]{S01}
+V.~A. Dzuba, V.~V. Flambaum, and S.~Schiller.
+\newblock Testing physics beyond the standard model through additional clock
+  transitions in neutral ytterbium.
+\newblock \emph{Physical Review A}, 2018.
+\newblock \doi{10.1103/PhysRevA.98.022501}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.98.022501}.
+
+\bibitem[Higgins et~al.(2017)Higgins, Pokorny, Zhang, Bodart, and
+  Hennrich]{S19}
+Gerard Higgins, Fabian Pokorny, Chi Zhang, Quentin Bodart, and Markus Hennrich.
+\newblock Coherent control of a single trapped rydberg ion, 2017.
+\newblock URL \url{https://arxiv.org/abs/1708.06387}.
+
+\bibitem[Holzl et~al.(2024)Holzl, Gotzelmann, Pultinevicius, Wirth, and
+  Meinert]{S14}
+C.~Holzl, A.~Gotzelmann, E.~Pultinevicius, M.~Wirth, and F.~Meinert.
+\newblock Long-lived circular rydberg qubits of alkaline-earth atoms in optical
+  tweezers.
+\newblock \emph{Physical Review X}, 2024.
+\newblock \doi{10.1103/PhysRevX.14.021024}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevX.14.021024}.
+
+\bibitem[Hoyt et~al.(2005)Hoyt, Barber, Oates, Diddams, Fortier, and
+  Hollberg]{S17}
+C.~Hoyt, Z.~W. Barber, C.~W. Oates, S.~A. Diddams, T.~M. Fortier, and
+  L.~Hollberg.
+\newblock Observation and absolute frequency measurements of the 1s0-3p0
+  optical clock transition in neutral ytterbium.
+\newblock \emph{Physical Review Letters}, 2005.
+\newblock \doi{10.1103/PhysRevLett.95.083003}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevLett.95.083003}.
+
+\bibitem[Ishiyama et~al.(2023)Ishiyama, Ono, Takano, Sunaga, and
+  Takahashi]{S02}
+Taiki Ishiyama, Koki Ono, Tetsushi Takano, Ayaki Sunaga, and Yoshiro Takahashi.
+\newblock Observation of an inner-shell orbital clock transition in neutral
+  ytterbium atoms.
+\newblock \emph{Physical Review Letters}, 2023.
+\newblock \doi{10.1103/PhysRevLett.130.153402}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevLett.130.153402}.
+
+\bibitem[Jenkins et~al.(2022{\natexlab{a}})Jenkins, Lis, Senoo, and
+  Kaufman]{S22}
+Alec Jenkins, Joanna~W. Lis, Aruku Senoo, and Adam~M. Kaufman.
+\newblock Universal gate operations on nuclear spin qubits in an optical
+  tweezer array of $^{171}$yb atoms.
+\newblock \emph{Physical Review X}, 12:\penalty0 021028, 2022{\natexlab{a}}.
+\newblock \doi{10.1103/PhysRevX.12.021028}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevX.12.021028}.
+
+\bibitem[Jenkins et~al.(2022{\natexlab{b}})Jenkins, Lis, Senoo, McGrew, and
+  Kaufman]{S21}
+Alec Jenkins, Joanna~W. Lis, Aruku Senoo, William~F. McGrew, and Adam~M.
+  Kaufman.
+\newblock Ytterbium nuclear-spin qubits in an optical tweezer array.
+\newblock \emph{Physical Review X}, 12:\penalty0 021027, 2022{\natexlab{b}}.
+\newblock \doi{10.1103/PhysRevX.12.021027}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevX.12.021027}.
+
+\bibitem[Jeong et~al.(2025)]{S25}
+W.~Jeong et~al.
+\newblock Mitigating electric-field-induced errors in a neutral atom quantum
+  processor, 2025.
+\newblock URL \url{https://arxiv.org/abs/2504.16908}.
+
+\bibitem[Kawasaki et~al.(2023)Kawasaki, Kobayashi, Nishiyama, Tanabe, and
+  Yasuda]{S03}
+Akio Kawasaki, Takumi Kobayashi, Akiko Nishiyama, Takehiko Tanabe, and Masami
+  Yasuda.
+\newblock Observation of the clock transition at 431 nm in 171yb.
+\newblock \emph{Physical Review A}, 2023.
+\newblock \doi{10.1103/PhysRevA.107.L060801}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.107.L060801}.
+
+\bibitem[Kawasaki et~al.(2024)Kawasaki, Kobayashi, Nishiyama, Tanabe, and
+  Yasuda]{S04}
+Akio Kawasaki, Takumi Kobayashi, Akiko Nishiyama, Takehiko Tanabe, and Masami
+  Yasuda.
+\newblock Isotope-shift analysis with the 1s0-4f13 5d6s2(j=2) transition in
+  ytterbium.
+\newblock \emph{Physical Review A}, 2024.
+\newblock \doi{10.1103/PhysRevA.109.062806}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.109.062806}.
+
+\bibitem[Kien et~al.(2022)Kien, Chormaic, and Busch]{S05}
+Fam~Le Kien, Sile~Nic Chormaic, and Thomas Busch.
+\newblock Transfer of angular momentum of guided light to an atom with an
+  electric quadrupole transition near an optical nanofiber.
+\newblock \emph{Physical Review A}, 2022.
+\newblock \doi{10.1103/PhysRevA.106.013712}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.106.013712}.
+
+\bibitem[Levine et~al.(2019)Levine, Keesling, Semeghini, Omran, Wang, Ebadi,
+  Bernien, Greiner, Vuletic, Pichler, and Lukin]{S13}
+Harry Levine, Alexander Keesling, Giulia Semeghini, Ahmed Omran, Tout~T. Wang,
+  Sepehr Ebadi, Hannes Bernien, Markus Greiner, Vladan Vuletic, Hannes Pichler,
+  and Mikhail~D. Lukin.
+\newblock Parallel implementation of high-fidelity multiqubit gates with
+  neutral atoms.
+\newblock \emph{Physical Review Letters}, 2019.
+\newblock \doi{10.1103/PhysRevLett.123.170503}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevLett.123.170503}.
+
+\bibitem[Ludlow et~al.(2015)Ludlow, Boyd, Ye, Peik, and Schmidt]{S07}
+Andrew~D. Ludlow, Martin~M. Boyd, Jun Ye, E.~Peik, and P.~O. Schmidt.
+\newblock Optical atomic clocks.
+\newblock \emph{Reviews of Modern Physics}, 2015.
+\newblock \doi{10.1103/RevModPhys.87.637}.
+\newblock URL \url{https://doi.org/10.1103/RevModPhys.87.637}.
+
+\bibitem[Moore et~al.(2023)Moore, Campbell, Hudson, Boguslawski, Wineland, and
+  Allcock]{S12}
+I.~D. Moore, W.~C. Campbell, E.~R. Hudson, M.~J. Boguslawski, D.~J. Wineland,
+  and D.~T.~C. Allcock.
+\newblock Photon scattering errors during stimulated raman transitions in
+  trapped-ion qubits.
+\newblock \emph{Physical Review A}, 2023.
+\newblock \doi{10.1103/PhysRevA.107.032413}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.107.032413}.
+
+\bibitem[Morgado \& Whitlock(2021)Morgado and Whitlock]{S15}
+M.~Morgado and S.~Whitlock.
+\newblock Quantum simulation and computing with rydberg-interacting qubits.
+\newblock \emph{AVS Quantum Science}, 2021.
+\newblock \doi{10.1116/5.0036562}.
+\newblock URL \url{https://doi.org/10.1116/5.0036562}.
+
+\bibitem[Norcia et~al.(2024)Norcia, Kim, Cairncross, Stone, Ryou, Jaffe, and
+  Bloom]{S20}
+M.~A. Norcia, H.~Kim, W.~B. Cairncross, M.~Stone, A.~Ryou, M.~Jaffe, and B.~J.
+  Bloom.
+\newblock Iterative assembly of $^{171}$yb atom arrays with cavity-enhanced
+  optical lattices.
+\newblock \emph{PRX Quantum}, 5:\penalty0 030316, 2024.
+\newblock \doi{10.1103/PRXQuantum.5.030316}.
+\newblock URL \url{https://doi.org/10.1103/PRXQuantum.5.030316}.
+
+\bibitem[Ozeri et~al.(2007)Ozeri, Itano, Blakestad, Britton, Chiaverini, Jost,
+  Langer, Leibfried, Reichle, Seidelin, Wesenberg, and Wineland]{S11}
+R.~Ozeri, W.~M. Itano, R.~B. Blakestad, J.~Britton, J.~Chiaverini, J.~D. Jost,
+  C.~Langer, D.~Leibfried, R.~Reichle, S.~Seidelin, J.~H. Wesenberg, and D.~J.
+  Wineland.
+\newblock Errors in trapped-ion quantum gates due to spontaneous photon
+  scattering.
+\newblock \emph{Physical Review A}, 2007.
+\newblock \doi{10.1103/PhysRevA.75.042329}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.75.042329}.
+
+\bibitem[Pokorny et~al.(2020)Pokorny, Zhang, Higgins, and Hennrich]{S18}
+Fabian Pokorny, Chi Zhang, Gerard Higgins, and Markus Hennrich.
+\newblock Magic trapping of a rydberg ion with a diminished static
+  polarizability, 2020.
+\newblock URL \url{https://arxiv.org/abs/2005.12422}.
+
+\bibitem[Saffman et~al.(2010)Saffman, Walker, and Molmer]{S08}
+M.~Saffman, T.~G. Walker, and K.~Molmer.
+\newblock Quantum information with rydberg atoms.
+\newblock \emph{Reviews of Modern Physics}, 2010.
+\newblock \doi{10.1103/RevModPhys.82.2313}.
+\newblock URL \url{https://doi.org/10.1103/RevModPhys.82.2313}.
+
+\bibitem[Safronova et~al.(2018)Safronova, Porsev, Sanner, and Ye]{S06}
+Marianna~S. Safronova, Sergey~G. Porsev, Christian Sanner, and Jun Ye.
+\newblock Two clock transitions in neutral yb for the highest sensitivity to
+  variations of the fine-structure constant.
+\newblock \emph{Physical Review Letters}, 2018.
+\newblock \doi{10.1103/PhysRevLett.120.173001}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevLett.120.173001}.
+
+\bibitem[Singh et~al.(2025)Singh, Linke, et~al.]{S27}
+V.~Singh, N.~M. Linke, et~al.
+\newblock Computationally efficient simulations of large-scale neutral atom
+  arrays, 2025.
+\newblock URL \url{https://arxiv.org/abs/2508.13208}.
+
+\bibitem[Wu et~al.(2023)Wu, Khazali, Maller, Sagi, et~al.]{S23}
+F.~Wu, L.~Khazali, K.~Maller, Y.~Sagi, et~al.
+\newblock Quantum computation with dual optical and hyperfine encoding in
+  neutral ytterbium atoms, 2023.
+\newblock URL \url{https://arxiv.org/abs/2312.04914}.
+
+\bibitem[Yudin et~al.(2010)Yudin, Taichenachev, Oates, Barber, Lemke, Ludlow,
+  Sterr, Lisdat, and Riehle]{S09}
+V.~I. Yudin, A.~V. Taichenachev, C.~W. Oates, Z.~W. Barber, N.~D. Lemke, A.~D.
+  Ludlow, U.~Sterr, Ch. Lisdat, and F.~Riehle.
+\newblock Hyper-ramsey spectroscopy of optical clock transitions.
+\newblock \emph{Physical Review A}, 2010.
+\newblock \doi{10.1103/PhysRevA.82.011804}.
+\newblock URL \url{https://doi.org/10.1103/PhysRevA.82.011804}.
+
+\bibitem[Zlokapa et~al.(2025)]{S29}
+A.~Zlokapa et~al.
+\newblock Suppressing coherent errors in programmable rydberg atom arrays,
+  2025.
+\newblock URL \url{https://arxiv.org/abs/2504.15789}.
+
+\bibitem[Šibalić et~al.(2017)Šibalić, Pritchard, Weatherill, and
+  Adams]{S36}
+N.~Šibalić, J.~Pritchard, K.~J. Weatherill, and C.~S. Adams.
+\newblock Arc-alkali-rydberg-calculator.
+\newblock \url{https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator},
+  2017.
+\newblock URL
+  \url{https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator}.
+
+\end{thebibliography}

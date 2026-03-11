@@ -1,0 +1,13 @@
+tau,bound_mode,feasibility_rate,epsilon_floor_median,required_improvement_factor_median
+1e-05,conservative,0.0,0.0007656,76.55999999999999
+1e-05,nominal,0.0,0.000638,63.8
+1e-05,stress,0.0,0.0009251,92.50999999999999
+0.0001,conservative,0.0,0.0007656,7.655999999999999
+0.0001,nominal,0.0,0.000638,6.38
+0.0001,stress,0.0,0.0009251,9.251
+0.001,conservative,1.0,0.0007656,1.0
+0.001,nominal,1.0,0.000638,1.0
+0.001,stress,1.0,0.0009251,1.0
+0.01,conservative,1.0,0.0007656,1.0
+0.01,nominal,1.0,0.000638,1.0
+0.01,stress,1.0,0.0009251,1.0

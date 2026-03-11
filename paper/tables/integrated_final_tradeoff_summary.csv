@@ -1,0 +1,5 @@
+tau,feasible,best_t_pi_us,best_epsilon_tot,dominant_error_channel,ci90_t_pi_low,ci90_t_pi_med,ci90_t_pi_high,best_detuning_hz,best_pulse_family,T_tau_median_us,T_tau_ci90_width_us,chance_constraint_satisfaction_rate,out_of_sample_violation_rate,dominant_error_channel_entropy,feasibility_rate,epsilon_floor,cross_experiment_consistency_score,provisional,conflict_note
+1e-05,False,,,none,,,,,,,,0.0,1.0,,0.0,0.0007395,0.9433265820359392,True,No major conflict.
+0.0001,False,,,none,,,,,,,,0.0,1.0,,0.0,0.0007395,0.9433265820359392,True,No major conflict.
+0.001,False,,,none,,,,,,,,0.0,1.0,,1.0,0.0007395,0.9433265820359392,True,"H3 floor permits feasibility, but deterministic and posterior modules found no stable <=tau candidates under current uncertainty settings."
+0.01,True,0.1661,0.0061237,epsilon_leak,0.45402,0.47341,0.49292,4000000000.0,square,0.20375381889532196,0.08031699440177707,0.9995638888888889,0.00043611111111111113,1.2689973949785278,1.0,0.0007395,0.9433265820359392,False,No major conflict.
