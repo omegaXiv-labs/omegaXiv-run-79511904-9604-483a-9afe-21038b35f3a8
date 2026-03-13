@@ -8,7 +8,7 @@
     "code/plotting.py",
     "code/symbolic.py"
   ],
-  "created_at": "2026-03-11T23:52:44.309051+00:00",
+  "created_at": "2026-03-13T10:22:43.177006+00:00",
   "paper": {
     "bibtex": "paper/references.bib",
     "latex": "paper/main.tex",
@@ -16,15 +16,23 @@
     "thumbnail": "paper/thumbnail.png"
   },
   "phases": [
+    "derive_math_methodology",
+    "experiment_design",
     "hypothesis_methodology",
+    "insights_refinement",
+    "knowledge_acquisition",
     "knowledge_distillation",
+    "literature_review",
+    "packaging_release",
     "review_feedback",
+    "revision",
     "user_input",
+    "user_presentation",
     "validation_simulation",
     "writing_presentation"
   ],
   "session_id": "79511904-9604-483a-9afe-21038b35f3a8",
-  "sources": null,
+  "sources": "sources/sources.json",
   "workspace": {
     "experiments": "experiments",
     "knowledge": "knowledge",

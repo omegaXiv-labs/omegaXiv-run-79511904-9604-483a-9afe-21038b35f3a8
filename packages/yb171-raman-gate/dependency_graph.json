@@ -1,0 +1,80 @@
+{
+  "nodes": [
+    {
+      "name": "omegaxiv-yb171-raman-gate",
+      "kind": "distribution"
+    },
+    {
+      "name": "python",
+      "spec": ">=3.10",
+      "kind": "runtime"
+    },
+    {
+      "name": "pytest",
+      "spec": ">=8.0",
+      "kind": "dev"
+    },
+    {
+      "name": "pluggy",
+      "spec": ">=1.5",
+      "kind": "dev_transitive"
+    },
+    {
+      "name": "iniconfig",
+      "spec": ">=2.0",
+      "kind": "dev_transitive"
+    },
+    {
+      "name": "packaging",
+      "spec": ">=24.0",
+      "kind": "dev_transitive"
+    },
+    {
+      "name": "mypy",
+      "spec": ">=1.8",
+      "kind": "dev"
+    },
+    {
+      "name": "ruff",
+      "spec": ">=0.5",
+      "kind": "dev"
+    }
+  ],
+  "edges": [
+    {
+      "from": "omegaxiv-yb171-raman-gate",
+      "to": "python",
+      "relation": "runtime"
+    },
+    {
+      "from": "omegaxiv-yb171-raman-gate",
+      "to": "pytest",
+      "relation": "dev"
+    },
+    {
+      "from": "pytest",
+      "to": "pluggy",
+      "relation": "transitive"
+    },
+    {
+      "from": "pytest",
+      "to": "iniconfig",
+      "relation": "transitive"
+    },
+    {
+      "from": "pytest",
+      "to": "packaging",
+      "relation": "transitive"
+    },
+    {
+      "from": "omegaxiv-yb171-raman-gate",
+      "to": "mypy",
+      "relation": "dev"
+    },
+    {
+      "from": "omegaxiv-yb171-raman-gate",
+      "to": "ruff",
+      "relation": "dev"
+    }
+  ]
+}

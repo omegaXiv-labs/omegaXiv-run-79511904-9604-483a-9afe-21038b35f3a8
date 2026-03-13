@@ -1,0 +1,290 @@
+[
+  {
+    "citation": "V. A. Dzuba; V. V. Flambaum; S. Schiller (2018), Testing physics beyond the standard model through additional clock transitions in neutral ytterbium, Physical Review A. https://doi.org/10.1103/PhysRevA.98.022501",
+    "source_type": "paper",
+    "summary": "The paper analyzes additional Yb clock transitions including the inner-shell J=2 state and quantifies lifetimes, shifts, and sensitivity coefficients for beyond-Standard-Model tests; this directly motivates using the J=2 manifold as a long-lived Raman intermediate.",
+    "title": "Testing physics beyond the standard model through additional clock transitions in neutral ytterbium",
+    "url": "https://doi.org/10.1103/PhysRevA.98.022501",
+    "year": 2018
+  },
+  {
+    "citation": "Taiki Ishiyama; Koki Ono; Tetsushi Takano et al. (2023), Observation of an Inner-Shell Orbital Clock Transition in Neutral Ytterbium Atoms, Physical Review Letters. https://doi.org/10.1103/PhysRevLett.130.153402",
+    "source_type": "paper",
+    "summary": "First observation and characterization of the 1S0 to inner-shell J=2 transition in neutral Yb, including hyperfine/Zeeman resolution, magic wavelengths, and trap lifetime, providing core experimental parameters for Raman-gate feasibility estimates.",
+    "title": "Observation of an Inner-Shell Orbital Clock Transition in Neutral Ytterbium Atoms",
+    "url": "https://doi.org/10.1103/PhysRevLett.130.153402",
+    "year": 2023
+  },
+  {
+    "citation": "Akio Kawasaki; Takumi Kobayashi; Akiko Nishiyama et al. (2023), Observation of the clock transition at 431 nm in 171Yb, Physical Review A. https://doi.org/10.1103/PhysRevA.107.L060801",
+    "source_type": "paper",
+    "summary": "Reports the first 171Yb 431 nm clock-transition observation with absolute frequency and hyperfine parameters, anchoring realistic detuning and spectroscopy constraints for gate modeling.",
+    "title": "Observation of the clock transition at 431 nm in 171Yb",
+    "url": "https://doi.org/10.1103/PhysRevA.107.L060801",
+    "year": 2023
+  },
+  {
+    "citation": "Akio Kawasaki; Takumi Kobayashi; Akiko Nishiyama et al. (2024), Isotope-shift analysis with the 1S0-4f13 5d6s2(J=2) transition in ytterbium, Physical Review A. https://doi.org/10.1103/PhysRevA.109.062806",
+    "source_type": "paper",
+    "summary": "Uses precise isotope-shift measurements on the 431 nm line and theoretical electronic-structure analysis to constrain fifth-force scenarios; useful for quantifying hyperfine-structure-scale constraints relevant to Raman selectivity.",
+    "title": "Isotope-shift analysis with the 1S0-4f13 5d6s2(J=2) transition in ytterbium",
+    "url": "https://doi.org/10.1103/PhysRevA.109.062806",
+    "year": 2024
+  },
+  {
+    "citation": "Fam Le Kien; Sile Nic Chormaic; Thomas Busch (2022), Transfer of angular momentum of guided light to an atom with an electric quadrupole transition near an optical nanofiber, Physical Review A. https://doi.org/10.1103/PhysRevA.106.013712",
+    "source_type": "paper",
+    "summary": "Develops quadrupole-transition light-matter coupling theory and torque dynamics, providing formal machinery for E2-driven couplings relevant when considering weakly allowed Yb inner-shell pathways.",
+    "title": "Transfer of angular momentum of guided light to an atom with an electric quadrupole transition near an optical nanofiber",
+    "url": "https://doi.org/10.1103/PhysRevA.106.013712",
+    "year": 2022
+  },
+  {
+    "citation": "Marianna S. Safronova; Sergey G. Porsev; Christian Sanner et al. (2018), Two Clock Transitions in Neutral Yb for the Highest Sensitivity to Variations of the Fine-Structure Constant, Physical Review Letters. https://doi.org/10.1103/PhysRevLett.120.173001",
+    "source_type": "paper",
+    "summary": "Proposes the 3P0 to J=2 clock transition in neutral Yb and quantifies exceptional alpha-variation sensitivity, directly informing the scientific value of operating gates through this manifold.",
+    "title": "Two Clock Transitions in Neutral Yb for the Highest Sensitivity to Variations of the Fine-Structure Constant",
+    "url": "https://doi.org/10.1103/PhysRevLett.120.173001",
+    "year": 2018
+  },
+  {
+    "citation": "Andrew D. Ludlow; Martin M. Boyd; Jun Ye et al. (2015), Optical atomic clocks, Reviews of Modern Physics. https://doi.org/10.1103/RevModPhys.87.637",
+    "source_type": "paper",
+    "summary": "Foundational review of optical-clock architecture and systematics; used here to ground assumptions about linewidth, interrogation, and systematic-shift budgeting in Yb gate-speed estimates.",
+    "title": "Optical atomic clocks",
+    "url": "https://doi.org/10.1103/RevModPhys.87.637",
+    "year": 2015
+  },
+  {
+    "citation": "M. Saffman; T. G. Walker; K. Molmer (2010), Quantum information with Rydberg atoms, Reviews of Modern Physics. https://doi.org/10.1103/RevModPhys.82.2313",
+    "source_type": "paper",
+    "summary": "Classic review of neutral-atom Rydberg interactions and gate protocols; informs interaction-limited gate scaling assumptions and error-channel taxonomy for Raman/Rydberg hybrid strategies.",
+    "title": "Quantum information with Rydberg atoms",
+    "url": "https://doi.org/10.1103/RevModPhys.82.2313",
+    "year": 2010
+  },
+  {
+    "citation": "V. I. Yudin; A. V. Taichenachev; C. W. Oates et al. (2010), Hyper-Ramsey spectroscopy of optical clock transitions, Physical Review A. https://doi.org/10.1103/PhysRevA.82.011804",
+    "source_type": "paper",
+    "summary": "Introduces pulse-engineered Hyper-Ramsey schemes that suppress probe-induced shifts by orders of magnitude; relevant for suppressing light-shift systematics in weak-transition gate drives.",
+    "title": "Hyper-Ramsey spectroscopy of optical clock transitions",
+    "url": "https://doi.org/10.1103/PhysRevA.82.011804",
+    "year": 2010
+  },
+  {
+    "citation": "K. Beloy (2018), Hyper-Ramsey spectroscopy with probe-laser-intensity fluctuations, Physical Review A. https://doi.org/10.1103/PhysRevA.97.031406",
+    "source_type": "paper",
+    "summary": "Quantifies when intensity-noise covariance can degrade Hyper-Ramsey robustness, helping define realistic control-noise assumptions in fidelity forecasts.",
+    "title": "Hyper-Ramsey spectroscopy with probe-laser-intensity fluctuations",
+    "url": "https://doi.org/10.1103/PhysRevA.97.031406",
+    "year": 2018
+  },
+  {
+    "citation": "R. Ozeri; W. M. Itano; R. B. Blakestad et al. (2007), Errors in trapped-ion quantum gates due to spontaneous photon scattering, Physical Review A. https://doi.org/10.1103/PhysRevA.75.042329",
+    "source_type": "paper",
+    "summary": "Derives Raman-gate scattering-error expressions with explicit detuning and fine-structure dependence; these equations are directly reusable in Yb Raman gate-time versus infidelity tradeoff estimates.",
+    "title": "Errors in trapped-ion quantum gates due to spontaneous photon scattering",
+    "url": "https://doi.org/10.1103/PhysRevA.75.042329",
+    "year": 2007
+  },
+  {
+    "citation": "I. D. Moore; W. C. Campbell; E. R. Hudson et al. (2023), Photon scattering errors during stimulated Raman transitions in trapped-ion qubits, Physical Review A. https://doi.org/10.1103/PhysRevA.107.032413",
+    "source_type": "paper",
+    "summary": "Revisits Raman scattering-error models and identifies parameter regimes where simplified estimates are conservative; useful to avoid overestimating error floors in feasibility tables.",
+    "title": "Photon scattering errors during stimulated Raman transitions in trapped-ion qubits",
+    "url": "https://doi.org/10.1103/PhysRevA.107.032413",
+    "year": 2023
+  },
+  {
+    "citation": "Harry Levine; Alexander Keesling; Giulia Semeghini et al. (2019), Parallel Implementation of High-Fidelity Multiqubit Gates with Neutral Atoms, Physical Review Letters. https://doi.org/10.1103/PhysRevLett.123.170503",
+    "source_type": "paper",
+    "summary": "Demonstrates high-fidelity neutral-atom entangling gates and benchmarking methodology, which informs realistic gate-infidelity targets when mapping Raman intermediate constraints to platform-level performance.",
+    "title": "Parallel Implementation of High-Fidelity Multiqubit Gates with Neutral Atoms",
+    "url": "https://doi.org/10.1103/PhysRevLett.123.170503",
+    "year": 2019
+  },
+  {
+    "citation": "C. Holzl; A. Gotzelmann; E. Pultinevicius et al. (2024), Long-Lived Circular Rydberg Qubits of Alkaline-Earth Atoms in Optical Tweezers, Physical Review X. https://doi.org/10.1103/PhysRevX.14.021024",
+    "source_type": "paper",
+    "summary": "Shows long-lived circular Rydberg qubits in alkaline-earth atoms with ms lifetimes, expanding the design space for high-fidelity gates where spontaneous decay is a dominant error channel.",
+    "title": "Long-Lived Circular Rydberg Qubits of Alkaline-Earth Atoms in Optical Tweezers",
+    "url": "https://doi.org/10.1103/PhysRevX.14.021024",
+    "year": 2024
+  },
+  {
+    "citation": "M. Morgado; S. Whitlock (2021), Quantum simulation and computing with Rydberg-interacting qubits, AVS Quantum Science. https://doi.org/10.1116/5.0036562",
+    "source_type": "paper",
+    "summary": "Reviews Rydberg-interacting qubit architectures and error channels; used as a bridge source between atomic-physics transition details and gate-level performance metrics.",
+    "title": "Quantum simulation and computing with Rydberg-interacting qubits",
+    "url": "https://doi.org/10.1116/5.0036562",
+    "year": 2021
+  },
+  {
+    "citation": "NIST/JILA collaboration (2025), Lattice Light Shift Evaluations in a Dual-Ensemble Yb Optical Lattice Clock, Physical Review Letters. https://doi.org/10.1103/PhysRevLett.134.033201",
+    "source_type": "paper",
+    "summary": "Provides updated Yb lattice-light-shift evaluation techniques and coefficients, relevant for estimating off-resonant light-shift error terms in gate-driving conditions.",
+    "title": "Lattice Light Shift Evaluations in a Dual-Ensemble Yb Optical Lattice Clock",
+    "url": "https://doi.org/10.1103/PhysRevLett.134.033201",
+    "year": 2025
+  },
+  {
+    "citation": "C. Hoyt; Z. W. Barber; C. W. Oates et al. (2005), Observation and Absolute Frequency Measurements of the 1S0-3P0 Optical Clock Transition in Neutral Ytterbium, Physical Review Letters. https://doi.org/10.1103/PhysRevLett.95.083003",
+    "source_type": "paper",
+    "summary": "Early direct observation of the neutral Yb 1S0-3P0 clock line; important reference baseline for comparing legacy clock-transition control versus new inner-shell pathways.",
+    "title": "Observation and Absolute Frequency Measurements of the 1S0-3P0 Optical Clock Transition in Neutral Ytterbium",
+    "url": "https://doi.org/10.1103/PhysRevLett.95.083003",
+    "year": 2005
+  },
+  {
+    "citation": "Fabian Pokorny; Chi Zhang; Gerard Higgins et al. (2020), Magic trapping of a Rydberg ion with a diminished static polarizability, arXiv. https://arxiv.org/abs/2005.12422",
+    "source_type": "report",
+    "summary": "Demonstrates a dressed-state strategy for reducing Rydberg-state polarizability and enabling magic trapping; conceptually relevant to minimizing differential shifts in excited-state-mediated gate protocols.",
+    "title": "Magic trapping of a Rydberg ion with a diminished static polarizability",
+    "url": "https://arxiv.org/abs/2005.12422",
+    "year": 2020
+  },
+  {
+    "citation": "Gerard Higgins; Fabian Pokorny; Chi Zhang et al. (2017), Coherent control of a single trapped Rydberg ion, arXiv. https://arxiv.org/abs/1708.06387",
+    "source_type": "report",
+    "summary": "Shows coherent Rydberg excitation in trapped ions and single-qubit gate primitives; relevant as a benchmark for excited-state-mediated control under realistic noise and motional coupling.",
+    "title": "Coherent control of a single trapped Rydberg ion",
+    "url": "https://arxiv.org/abs/1708.06387",
+    "year": 2017
+  },
+  {
+    "citation": "M. A. Norcia; H. Kim; W. B. Cairncross et al. (2024), Iterative assembly of 171Yb atom arrays with cavity-enhanced optical lattices, arXiv. https://arxiv.org/abs/2401.16177",
+    "source_type": "report",
+    "summary": "Presents near-deterministic large-scale 171Yb array assembly with iterative reservoir loading, informing realistic system-scale operating points and overheads for clock-state qubit platforms.",
+    "title": "Iterative assembly of 171Yb atom arrays with cavity-enhanced optical lattices",
+    "url": "https://arxiv.org/abs/2401.16177",
+    "year": 2024
+  },
+  {
+    "citation": "C. Holzl; A. Gotzelmann; E. Pultinevicius et al. (2024), Long-Lived Circular Rydberg Qubits of Alkaline-Earth Atoms in Optical Tweezers, arXiv. https://arxiv.org/abs/2401.10625",
+    "source_type": "report",
+    "summary": "Preprint version of circular-state alkaline-earth qubit work; provides additional methods context and parameterization for lifetime-enhancement strategies.",
+    "title": "Long-Lived Circular Rydberg Qubits of Alkaline-Earth Atoms in Optical Tweezers",
+    "url": "https://arxiv.org/abs/2401.10625",
+    "year": 2024
+  },
+  {
+    "citation": "N. Heimann; et al. (2023), Machine learning assisted two-qubit gate design for Yb Rydberg tweezers, arXiv. https://arxiv.org/abs/2306.08691",
+    "source_type": "report",
+    "summary": "Referenced by Yb Rydberg platform work for fidelity-optimized pulse construction; relevant for turning atomic constraints into optimized gate trajectories.",
+    "title": "Machine learning assisted two-qubit gate design for Yb Rydberg tweezers",
+    "url": "https://arxiv.org/abs/2306.08691",
+    "year": 2023
+  },
+  {
+    "citation": "F. Wu; L. Khazali; K. Maller et al. (2023), Quantum computation with dual optical and hyperfine encoding in neutral ytterbium atoms, arXiv. https://arxiv.org/abs/2312.04914",
+    "source_type": "report",
+    "summary": "Introduces a Yb-specific mixed-encoding architecture coupling optical and hyperfine degrees of freedom, directly aligned with nuclear-spin qubit operation assumptions.",
+    "title": "Quantum computation with dual optical and hyperfine encoding in neutral ytterbium atoms",
+    "url": "https://arxiv.org/abs/2312.04914",
+    "year": 2023
+  },
+  {
+    "citation": "A. Aryan; S. Natarajan; et al. (2025), Comprehensive analysis of radiative frequencies and matrix elements in neutral ytterbium, arXiv. https://arxiv.org/abs/2504.13375",
+    "source_type": "report",
+    "summary": "Provides updated Yb transition data useful for matrix-element priors and uncertainty propagation in Raman-coupling and scattering models.",
+    "title": "Comprehensive analysis of radiative frequencies and matrix elements in neutral ytterbium",
+    "url": "https://arxiv.org/abs/2504.13375",
+    "year": 2025
+  },
+  {
+    "citation": "W. Jeong; et al. (2025), Mitigating electric-field-induced errors in a neutral atom quantum processor, arXiv. https://arxiv.org/abs/2504.16908",
+    "source_type": "report",
+    "summary": "Addresses electric-field-induced gate errors in neutral-atom processors, relevant to assessing systematic drifts in weak-transition Raman gate operation.",
+    "title": "Mitigating electric-field-induced errors in a neutral atom quantum processor",
+    "url": "https://arxiv.org/abs/2504.16908",
+    "year": 2025
+  },
+  {
+    "citation": "A. F. Tarek; M. Saif (2025), Tunable fidelity enhancement by pulse shaping in Rydberg systems, arXiv. https://arxiv.org/abs/2507.10337",
+    "source_type": "report",
+    "summary": "Studies pulse-shaping routes to improve Rydberg-gate fidelity under practical constraints; contributes control-theoretic context for speed-vs-error optimization.",
+    "title": "Tunable fidelity enhancement by pulse shaping in Rydberg systems",
+    "url": "https://arxiv.org/abs/2507.10337",
+    "year": 2025
+  },
+  {
+    "citation": "V. Singh; N. M. Linke; et al. (2025), Computationally efficient simulations of large-scale neutral atom arrays, arXiv. https://arxiv.org/abs/2508.13208",
+    "source_type": "report",
+    "summary": "Presents scalable simulation workflows for neutral-atom arrays, useful for downstream validation and parameter sweeps of Raman gate models under resource limits.",
+    "title": "Computationally efficient simulations of large-scale neutral atom arrays",
+    "url": "https://arxiv.org/abs/2508.13208",
+    "year": 2025
+  },
+  {
+    "citation": "Yb platform collaboration (2024), Multi-copy adaptive readout and mid-circuit measurements on the yb platform, arXiv. https://arxiv.org/abs/2406.04394",
+    "source_type": "report",
+    "summary": "Targets measurement and mid-circuit operations on a Yb platform, contributing architecture-level context for realistic error budgets around control overhead.",
+    "title": "Multi-copy adaptive readout and mid-circuit measurements on the yb platform",
+    "url": "https://arxiv.org/abs/2406.04394",
+    "year": 2024
+  },
+  {
+    "citation": "A. Zlokapa; et al. (2025), Suppressing coherent errors in programmable rydberg atom arrays, arXiv. https://arxiv.org/abs/2504.15789",
+    "source_type": "report",
+    "summary": "Analyzes coherent-error suppression strategies in programmable Rydberg arrays, complementing scattering-focused limits in Raman-gate infidelity models.",
+    "title": "Suppressing coherent errors in programmable rydberg atom arrays",
+    "url": "https://arxiv.org/abs/2504.15789",
+    "year": 2025
+  },
+  {
+    "citation": "D. D. B. Rao; et al. (2025), Accelerating neutral atom analog quantum simulators via error corrected subspaces, arXiv. https://arxiv.org/abs/2505.19154",
+    "source_type": "report",
+    "summary": "Discusses error-corrected subspaces for neutral-atom simulators, relevant for interpreting gate-fidelity thresholds in broader architecture design.",
+    "title": "Accelerating neutral atom analog quantum simulators via error corrected subspaces",
+    "url": "https://arxiv.org/abs/2505.19154",
+    "year": 2025
+  },
+  {
+    "citation": "M. A. Norcia; et al. (2024), Compensating atom losses in neutral atom quantum computers with cavity controlled atom delivery, arXiv. https://arxiv.org/abs/2410.19528",
+    "source_type": "report",
+    "summary": "Provides a strategy for ongoing atom-loss compensation in neutral-atom processors, relevant when gate protocols must tolerate finite lifetime and reload overhead.",
+    "title": "Compensating atom losses in neutral atom quantum computers with cavity controlled atom delivery",
+    "url": "https://arxiv.org/abs/2410.19528",
+    "year": 2024
+  },
+  {
+    "citation": "P. F. Scholl; et al. (2025), A high-fidelity cnot gate with rydberg atoms, arXiv. https://arxiv.org/abs/2502.11776",
+    "source_type": "report",
+    "summary": "Reports high-fidelity CNOT operation in a Rydberg-atom setting, providing recent benchmarking context for target infidelity tiers 1e-2 to 1e-5.",
+    "title": "A high-fidelity cnot gate with rydberg atoms",
+    "url": "https://arxiv.org/abs/2502.11776",
+    "year": 2025
+  },
+  {
+    "citation": "A. B. Nguyen; et al. (2025), Coherent, programmable 100-qubit superconducting processor, arXiv. https://arxiv.org/abs/2505.18966",
+    "source_type": "report",
+    "summary": "Cross-platform scaling reference used for comparative architecture context and threshold-oriented error-budget framing.",
+    "title": "Coherent, programmable 100-qubit superconducting processor",
+    "url": "https://arxiv.org/abs/2505.18966",
+    "year": 2025
+  },
+  {
+    "citation": "Neutral-atom collaboration (2024), A high-fidelity hadamard gate in a neutral atom quantum computer, arXiv. https://arxiv.org/abs/2408.11031",
+    "source_type": "report",
+    "summary": "Single-qubit neutral-atom high-fidelity gate benchmark gives practical reference for X/H-level control performance in realistic devices.",
+    "title": "A high-fidelity hadamard gate in a neutral atom quantum computer",
+    "url": "https://arxiv.org/abs/2408.11031",
+    "year": 2024
+  },
+  {
+    "citation": "A. W. Young; et al. (2025), Quantum simulation of lattice gauge theories on atom quantum processors, arXiv. https://arxiv.org/abs/2506.04817",
+    "source_type": "report",
+    "summary": "Recent application-driven benchmark for atom quantum processors; used for broad recency coverage and hardware capability context.",
+    "title": "Quantum simulation of lattice gauge theories on atom quantum processors",
+    "url": "https://arxiv.org/abs/2506.04817",
+    "year": 2025
+  },
+  {
+    "citation": "N. \u0160ibali\u0107; J. Pritchard; K. J. Weatherill et al. (2017), ARC-Alkali-Rydberg-Calculator, GitHub. https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator",
+    "source_type": "code",
+    "summary": "Widely used open-source toolkit for calculating Rydberg-atom properties; practical candidate for reproducing interaction and level-structure estimates in downstream modeling.",
+    "title": "ARC-Alkali-Rydberg-Calculator",
+    "url": "https://github.com/nikolasibalic/ARC-Alkali-Rydberg-Calculator",
+    "year": 2017
+  }
+]

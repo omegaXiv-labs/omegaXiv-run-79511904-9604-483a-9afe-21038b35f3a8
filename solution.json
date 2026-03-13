@@ -20,6 +20,11 @@
       "kind": "latex_sources",
       "label": "LaTeX Sources",
       "uri": "https://github.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/blob/main/paper/main.tex"
+    },
+    {
+      "kind": "sources",
+      "label": "Sources",
+      "uri": "https://github.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/blob/main/sources/sources.json"
     }
   ],
   "artifacts_summary": "Resumed writing_presentation completed with a compile-ready conference-template manuscript, synchronized bibliography and equation-usage exports, and refreshed execution evidence for the manual resume iteration.",
@@ -32,7 +37,7 @@
     "Deadline indicated as 2026-03-11."
   ],
   "context_id": "79511904-9604-483a-9afe-21038b35f3a8",
-  "created_at": "2026-03-11T23:24:50.483936+00:00",
+  "created_at": "2026-03-13T10:12:13.165251+00:00",
   "difficulty": "Frontier",
   "domain": "Quantum Computing",
   "evaluation_plan": "Produce a quantitative table of estimated gate times/speeds achievable at fixed 1 W/cm^2 for fidelity targets 1-10^-2, 1-10^-3, 1-10^-4, and 1-10^-5; compare regimes and identify the fastest operating point satisfying infidelity <=10^-3.",
@@ -119,6 +124,195 @@
     ],
     "target_deadline": "2026-03-11"
   },
+  "package": {
+    "artifacts": [
+      {
+        "kind": "wheel",
+        "path": "packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
+        "sha256": "2e6aa877808372651e78855a90b7c9296b46d682439f25a7ce8dbefde554a192",
+        "size_bytes": 7223,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/packaging_manifest.json",
+        "sha256": "2280e191c922a0b9d7eb2dd1ad16668c86e685b19ce5d37652e6755b2a003a6d",
+        "size_bytes": 4375,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/packaging_manifest.json"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/README.md",
+        "sha256": "9b85506f6615cbbe92b62d0f4e538aed765271af37a1519013344cfb47fd2038",
+        "size_bytes": 2271,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/README.md"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/requirements.txt",
+        "sha256": "5ab5c4e82afcb6d2c58ff5ca2bed5036f4c1904d3af03ca782d814e1651a03b4",
+        "size_bytes": 172,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/requirements.txt"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/dependency_graph.json",
+        "sha256": "d6acda290a1baed4225e68ead4e02929d9b2c04e7505c41124232605be22e379",
+        "size_bytes": 1407,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/dependency_graph.json"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/pyproject.toml",
+        "sha256": "1d1cf0f1e3c4865cc720c81de2577a6e36feb88d13fbc25f5d753ed84a0ebee9",
+        "size_bytes": 751,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/pyproject.toml"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/EXTRACTION_PLAN.md",
+        "sha256": "9036d94613e40a1d965ee86f383fd24730e33be1ffee19e3d035322bd672e15a",
+        "size_bytes": 1092,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/EXTRACTION_PLAN.md"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/src/yb171_raman_gate/__init__.py",
+        "sha256": "1f5502fc8cefbf1b54c252497f8b43bbba9f45ed738b6950aed6bd43f951d028",
+        "size_bytes": 870,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/src/yb171_raman_gate/__init__.py"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/src/yb171_raman_gate/model.py",
+        "sha256": "709fbcfe9f7bdd311f74a917af35820a117379e64a32eeba9231116ad6a6ca0f",
+        "size_bytes": 4338,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/src/yb171_raman_gate/model.py"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/src/yb171_raman_gate/tradeoff.py",
+        "sha256": "9b0121d3d933d49b2ee562975dbf727e2ed9f7dff9e59a0c7c9dbbdb39cee455",
+        "size_bytes": 7685,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/src/yb171_raman_gate/tradeoff.py"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/tests/test_tradeoff.py",
+        "sha256": "f350cb3556516a670d2f9fc088b6f25e937e8b66935fe299cfa861afc880be08",
+        "size_bytes": 910,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/tests/test_tradeoff.py"
+      },
+      {
+        "kind": "other",
+        "path": "packages/yb171-raman-gate/examples/basic_usage.py",
+        "sha256": "a0850c2102a5e783e1caf21cbbecca98682e4e6ccb9b7cb3f2b7f01faeefe2a3",
+        "size_bytes": 757,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/examples/basic_usage.py"
+      },
+      {
+        "kind": "other",
+        "path": "packages/registry/index.json",
+        "sha256": "03ef441e4077c9d17456af4180c8632af14daeb975960a6e52b31a3b2c852fcf",
+        "size_bytes": 86,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/registry/index.json"
+      },
+      {
+        "kind": "other",
+        "path": "packages/registry/yb171-raman-gate.json",
+        "sha256": "1773e134d5009f5db9cb993373acc9762142ac524f5a37660cac57715c6b5aa5",
+        "size_bytes": 443,
+        "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/registry/yb171-raman-gate.json"
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "python",
+        "required_by": [
+          "yb171_raman_gate.model",
+          "yb171_raman_gate.tradeoff"
+        ],
+        "source": "runtime",
+        "spec": ">=3.10",
+        "transitive": false
+      },
+      {
+        "name": "pytest",
+        "required_by": [
+          "tests/test_tradeoff.py"
+        ],
+        "source": "dev",
+        "spec": ">=8.0",
+        "transitive": false
+      },
+      {
+        "name": "pluggy",
+        "required_by": [
+          "pytest"
+        ],
+        "source": "dev",
+        "spec": ">=1.5",
+        "transitive": true
+      },
+      {
+        "name": "iniconfig",
+        "required_by": [
+          "pytest"
+        ],
+        "source": "dev",
+        "spec": ">=2.0",
+        "transitive": true
+      },
+      {
+        "name": "packaging",
+        "required_by": [
+          "pytest"
+        ],
+        "source": "dev",
+        "spec": ">=24.0",
+        "transitive": true
+      },
+      {
+        "name": "mypy",
+        "required_by": [
+          "type-check"
+        ],
+        "source": "dev",
+        "spec": ">=1.8",
+        "transitive": false
+      },
+      {
+        "name": "ruff",
+        "required_by": [
+          "lint"
+        ],
+        "source": "dev",
+        "spec": ">=0.5",
+        "transitive": false
+      }
+    ],
+    "dependency_graph_mermaid": "graph TD\\n  pkg[omegaxiv-yb171-raman-gate] --> py[python>=3.10]\\n  pkg --> pytest[pytest>=8.0 (dev)]\\n  pytest --> pluggy[pluggy>=1.5]\\n  pytest --> iniconfig[iniconfig>=2.0]\\n  pytest --> packaging[packaging>=24.0]\\n  pkg --> mypy[mypy>=1.8 (dev)]\\n  pkg --> ruff[ruff>=0.5 (dev)]",
+    "dependency_graph_path": "packages/yb171-raman-gate/dependency_graph.json",
+    "dependency_graph_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/dependency_graph.json",
+    "distribution_name": "omegaxiv-yb171-raman-gate",
+    "handle": "yb171-raman-gate",
+    "handle_alternatives": [
+      "yb171-inner-shell-gate",
+      "yb171-raman-tradeoff"
+    ],
+    "handle_confirmed": true,
+    "import_name": "yb171_raman_gate",
+    "install_command": "pip install omegaxiv && ox install yb171-raman-gate==0.1.0",
+    "install_target": "file:///app/outputs/runs/35133559-cc56-4504-b79f-457cb41ea173/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
+    "manager_install_command": "pip install omegaxiv",
+    "manifest_path": "packages/yb171-raman-gate/packaging_manifest.json",
+    "package_type": "library",
+    "readme_path": "packages/yb171-raman-gate/README.md",
+    "readme_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/README.md",
+    "requirements_path": "packages/yb171-raman-gate/requirements.txt",
+    "requirements_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/requirements.txt",
+    "version": "0.1.0"
+  },
   "paper_pdf_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/main.pdf",
   "paper_thumbnail_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/thumbnail.png",
   "pipeline_id": "79511904-9604-483a-9afe-21038b35f3a8",
@@ -131,12 +325,12 @@
   ],
   "repo_url": "https://github.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8",
   "request_text": "Title: Inner shell excited clock state gate\nAbstract: Estimate achievable X-gate speeds and fidelities for a Yb-171 nuclear qubit using Raman transfer via a long-lived inner-shell J=2 intermediate (with 1 W/cm^2 available), limited by hyperfine splitting versus intermediate lifetime, and report gate-time vs target-infidelity tradeoffs (10^-2-10^-5).\nFull Description: I want to make a good X-gate for qubits encoded in the 3P0 state in Yb-171. This is a nuclear qubit with F=1/2, so exactly two states. We want to make X-gates via Raman transfer with some intermediate state. The fidelity of such an X-gate is limited by the ratio of the hyperfine splitting over the lifetime of the intermediate state. In Yb-171, there are inner-shell-excited clock states available, where one of the f-shell electrons is excited to a d-state. The J=2 state is accessible using a electric quadrupole transition. This is a weak transition, so hard to excite, but the payoff is that the lifetime of the inner-shell excited state is practically infinite. Say I have 1 W/cm^2 of laser power available at the appropriate wavelength, what fidelity and what gatespeeds can we accomplish? Ideally the gate should be as fast as possible, with, say, 10^-3 infidelity or better. Maybe make a table with gatespeeds and fidelity targets 10^-2, 10^-3, 10^-4 and 10^-5.\nProblem Type: Open Question\nDifficulty: Frontier\nDomain: Quantum Computing\nOriginator: Marius-Constantin Dinu\nCompute Budget: 1 APU, Apple Silicon, 128GB\nTarget Deadline: 2026-03-11\nTags: quantum computing\nCategories: Quantum Computing\nExpected Artifacts: Paper, Code\nRelated Links: https://exphy.hhu.de/fileadmin/redaktion/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Physik/AG_Schiller/documents/Dzuba_et_al_Testing_physics_beyond_the_standard_model_through_additional_clock_transitions_in_neutral_ytterbium_2018.pdf, https://link.aps.org/accepted/10.1103/PhysRevLett.120.173001, https://link.aps.org/pdf/10.1103/PhysRevA.106.013712, https://arxiv.org/abs/2303.09765\nDataset Links: None",
-  "run_id": "5c652d5b-a066-4554-91b8-5f499dc6747d",
+  "run_id": "35133559-cc56-4504-b79f-457cb41ea173",
   "session_id": "79511904-9604-483a-9afe-21038b35f3a8",
   "tags": [
     "quantum computing"
   ],
   "target_deadline": "2026-03-11",
   "title": "Inner shell excited clock state gate",
-  "updated_at": "2026-03-11T23:24:50.804136+00:00"
+  "updated_at": "2026-03-13T10:12:14.748966+00:00"
 }

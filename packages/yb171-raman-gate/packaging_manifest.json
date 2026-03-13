@@ -1,0 +1,143 @@
+{
+  "handle": "yb171-raman-gate",
+  "handleAlternatives": [
+    "yb171-inner-shell-gate",
+    "yb171-raman-tradeoff"
+  ],
+  "handleConfirmed": true,
+  "packageType": "library",
+  "distributionName": "omegaxiv-yb171-raman-gate",
+  "importName": "yb171_raman_gate",
+  "version": "0.1.0",
+  "install": {
+    "canonicalUserFlow": [
+      "pip install omegaxiv",
+      "ox install yb171-raman-gate==0.1.0"
+    ],
+    "installTarget": "file:///app/outputs/runs/35133559-cc56-4504-b79f-457cb41ea173/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
+    "smokeTestCommand": "python3 -m venv /tmp/ox_pkg_smoke_yb171_raman_gate_35133559_20260313 && /tmp/ox_pkg_smoke_yb171_raman_gate_35133559_20260313/bin/python -m pip install file:///app/outputs/runs/35133559-cc56-4504-b79f-457cb41ea173/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl && /tmp/ox_pkg_smoke_yb171_raman_gate_35133559_20260313/bin/python -c \"from yb171_raman_gate import RamanGateModel; from yb171_raman_gate.tradeoff import fit_surrogate; model = RamanGateModel.from_prior_scale('nominal', seed=5); point = model.evaluate(8.0e9, 'square', jitter_seed=3); fit = fit_surrogate([2.0e9, 4.0e9, 6.0e9], [0.02, 0.008, 0.006]); assert point.epsilon_tot > 0.0; assert fit.r2 > 0.0\"",
+    "smokeTestPassed": true
+  },
+  "extractionPlan": {
+    "coreContributions": [
+      "FC1 detuning-optimum surrogate and error decomposition",
+      "Thresholded fastest-feasible tradeoff decision logic"
+    ],
+    "sourceSymbols": [
+      {
+        "sourcePath": "experiments/up1_hybrid_validation/src/up1_validation/core.py",
+        "sourceSymbol": "ModelParams"
+      },
+      {
+        "sourcePath": "experiments/up1_hybrid_validation/src/up1_validation/core.py",
+        "sourceSymbol": "evaluate_gate_point"
+      },
+      {
+        "sourcePath": "experiments/up1_hybrid_validation/src/up1_validation/core.py",
+        "sourceSymbol": "fit_surrogate"
+      },
+      {
+        "sourcePath": "experiments/up1_hybrid_validation/src/up1_validation/core.py",
+        "sourceSymbol": "floor_impossibility"
+      },
+      {
+        "sourcePath": "experiments/up1_hybrid_validation/src/up1_validation/core.py",
+        "sourceSymbol": "chance_constraint_satisfied"
+      }
+    ],
+    "publicApiMappings": [
+      {
+        "sourceSymbol": "ModelParams",
+        "exportedModule": "yb171_raman_gate.model",
+        "exportedSymbol": "ModelParams"
+      },
+      {
+        "sourceSymbol": "evaluate_gate_point",
+        "exportedModule": "yb171_raman_gate.model",
+        "exportedSymbol": "evaluate_gate_point"
+      },
+      {
+        "sourceSymbol": "fit_surrogate",
+        "exportedModule": "yb171_raman_gate.tradeoff",
+        "exportedSymbol": "fit_surrogate"
+      },
+      {
+        "sourceSymbol": "floor_impossibility",
+        "exportedModule": "yb171_raman_gate.tradeoff",
+        "exportedSymbol": "floor_impossibility"
+      },
+      {
+        "sourceSymbol": "chance_constraint_satisfied",
+        "exportedModule": "yb171_raman_gate.tradeoff",
+        "exportedSymbol": "chance_constraint_satisfied"
+      }
+    ]
+  },
+  "dependencies": [
+    {
+      "name": "python",
+      "spec": ">=3.10",
+      "source": "runtime",
+      "transitive": false,
+      "requiredBy": [
+        "yb171_raman_gate.model",
+        "yb171_raman_gate.tradeoff"
+      ]
+    },
+    {
+      "name": "pytest",
+      "spec": ">=8.0",
+      "source": "dev",
+      "transitive": false,
+      "requiredBy": [
+        "tests/test_tradeoff.py"
+      ]
+    },
+    {
+      "name": "pluggy",
+      "spec": ">=1.5",
+      "source": "dev",
+      "transitive": true,
+      "requiredBy": [
+        "pytest"
+      ]
+    },
+    {
+      "name": "iniconfig",
+      "spec": ">=2.0",
+      "source": "dev",
+      "transitive": true,
+      "requiredBy": [
+        "pytest"
+      ]
+    },
+    {
+      "name": "packaging",
+      "spec": ">=24.0",
+      "source": "dev",
+      "transitive": true,
+      "requiredBy": [
+        "pytest"
+      ]
+    },
+    {
+      "name": "mypy",
+      "spec": ">=1.8",
+      "source": "dev",
+      "transitive": false,
+      "requiredBy": [
+        "type-check"
+      ]
+    },
+    {
+      "name": "ruff",
+      "spec": ">=0.5",
+      "source": "dev",
+      "transitive": false,
+      "requiredBy": [
+        "lint"
+      ]
+    }
+  ],
+  "artifacts": []
+}

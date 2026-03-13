@@ -16,5 +16,5 @@
   "paper_pdf": "paper/main.pdf",
   "paper_tables": "paper/tables",
   "paper_thumbnail": "paper/thumbnail.png",
-  "sources": null
+  "sources": "sources/sources.json"
 }
