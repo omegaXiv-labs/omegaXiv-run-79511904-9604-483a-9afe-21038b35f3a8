@@ -14,8 +14,8 @@
       "pip install omegaxiv",
       "ox install yb171-raman-gate==0.1.0"
     ],
-    "installTarget": "file:///app/outputs/runs/35133559-cc56-4504-b79f-457cb41ea173/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
-    "smokeTestCommand": "python3 -m venv /tmp/ox_pkg_smoke_yb171_raman_gate_35133559_20260313 && /tmp/ox_pkg_smoke_yb171_raman_gate_35133559_20260313/bin/python -m pip install file:///app/outputs/runs/35133559-cc56-4504-b79f-457cb41ea173/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl && /tmp/ox_pkg_smoke_yb171_raman_gate_35133559_20260313/bin/python -c \"from yb171_raman_gate import RamanGateModel; from yb171_raman_gate.tradeoff import fit_surrogate; model = RamanGateModel.from_prior_scale('nominal', seed=5); point = model.evaluate(8.0e9, 'square', jitter_seed=3); fit = fit_surrogate([2.0e9, 4.0e9, 6.0e9], [0.02, 0.008, 0.006]); assert point.epsilon_tot > 0.0; assert fit.r2 > 0.0\"",
+    "installTarget": "file:///app/outputs/runs/a9abcc18-8270-4e8a-a874-e213e71cb77d/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
+    "smokeTestCommand": "python3 -m venv /tmp/ox_pkg_smoke_yb171_raman_gate_a9abcc18_20260313 && /tmp/ox_pkg_smoke_yb171_raman_gate_a9abcc18_20260313/bin/python -m pip install file:///app/outputs/runs/a9abcc18-8270-4e8a-a874-e213e71cb77d/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl && /tmp/ox_pkg_smoke_yb171_raman_gate_a9abcc18_20260313/bin/python -c \"from yb171_raman_gate import RamanGateModel; from yb171_raman_gate.tradeoff import fit_surrogate; model = RamanGateModel.from_prior_scale('nominal', seed=5); point = model.evaluate(8.0e9, 'square', jitter_seed=3); fit = fit_surrogate([2.0e9, 4.0e9, 6.0e9], [0.02, 0.008, 0.006]); assert point.epsilon_tot > 0.0; assert fit.r2 > 0.0\"",
     "smokeTestPassed": true
   },
   "extractionPlan": {
@@ -139,5 +139,12 @@
       ]
     }
   ],
-  "artifacts": []
+  "artifacts": [
+    {
+      "kind": "wheel",
+      "path": "packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
+      "sha256": "820dcfa304394ac01857ba87ed11441fb54c2a8f5bdbad1022b4e917f71cc7d3",
+      "sizeBytes": 7223
+    }
+  ]
 }

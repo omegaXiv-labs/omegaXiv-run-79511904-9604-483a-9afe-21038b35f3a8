@@ -37,7 +37,7 @@
     "Deadline indicated as 2026-03-11."
   ],
   "context_id": "79511904-9604-483a-9afe-21038b35f3a8",
-  "created_at": "2026-03-13T10:12:13.165251+00:00",
+  "created_at": "2026-03-13T10:35:32.868802+00:00",
   "difficulty": "Frontier",
   "domain": "Quantum Computing",
   "evaluation_plan": "Produce a quantitative table of estimated gate times/speeds achievable at fixed 1 W/cm^2 for fidelity targets 1-10^-2, 1-10^-3, 1-10^-4, and 1-10^-5; compare regimes and identify the fastest operating point satisfying infidelity <=10^-3.",
@@ -129,15 +129,15 @@
       {
         "kind": "wheel",
         "path": "packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
-        "sha256": "2e6aa877808372651e78855a90b7c9296b46d682439f25a7ce8dbefde554a192",
+        "sha256": "820dcfa304394ac01857ba87ed11441fb54c2a8f5bdbad1022b4e917f71cc7d3",
         "size_bytes": 7223,
         "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl"
       },
       {
         "kind": "other",
         "path": "packages/yb171-raman-gate/packaging_manifest.json",
-        "sha256": "2280e191c922a0b9d7eb2dd1ad16668c86e685b19ce5d37652e6755b2a003a6d",
-        "size_bytes": 4375,
+        "sha256": "be1a8ac32e6bb958baa4db261b1367fbfe5eaed4c234d867692816591b2a76dc",
+        "size_bytes": 4618,
         "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/packaging_manifest.json"
       },
       {
@@ -213,14 +213,14 @@
       {
         "kind": "other",
         "path": "packages/registry/index.json",
-        "sha256": "03ef441e4077c9d17456af4180c8632af14daeb975960a6e52b31a3b2c852fcf",
+        "sha256": "b25ff6b5bee0820477ab6cfc3a7c0d75d076678a52463dd5f9df21013f17b9d8",
         "size_bytes": 86,
         "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/registry/index.json"
       },
       {
         "kind": "other",
         "path": "packages/registry/yb171-raman-gate.json",
-        "sha256": "1773e134d5009f5db9cb993373acc9762142ac524f5a37660cac57715c6b5aa5",
+        "sha256": "d195235b33e74421700e970c4be24d10f6afeabbb42d5a3edfc35059eb2c25bb",
         "size_bytes": 443,
         "url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/registry/yb171-raman-gate.json"
       }
@@ -303,19 +303,15 @@
     "handle_confirmed": true,
     "import_name": "yb171_raman_gate",
     "install_command": "pip install omegaxiv && ox install yb171-raman-gate==0.1.0",
-    "install_ready": true,
-    "install_target": "file:///app/outputs/runs/35133559-cc56-4504-b79f-457cb41ea173/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
+    "install_target": "file:///app/outputs/runs/a9abcc18-8270-4e8a-a874-e213e71cb77d/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
     "manager_install_command": "pip install omegaxiv",
     "manifest_path": "packages/yb171-raman-gate/packaging_manifest.json",
     "package_type": "library",
     "readme_path": "packages/yb171-raman-gate/README.md",
     "readme_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/README.md",
-    "registry_index_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaxiv-registry/main/packages/index.json",
-    "registry_record_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaxiv-registry/main/handles/yb171-raman-gate.json",
-    "registry_status": "synced",
     "requirements_path": "packages/yb171-raman-gate/requirements.txt",
     "requirements_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/packages/yb171-raman-gate/requirements.txt",
-    "version": "0.1.5"
+    "version": "0.1.0"
   },
   "paper_pdf_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/main.pdf",
   "paper_thumbnail_url": "https://raw.githubusercontent.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8/main/paper/thumbnail.png",
@@ -329,12 +325,12 @@
   ],
   "repo_url": "https://github.com/omegaXiv-labs/omegaXiv-run-79511904-9604-483a-9afe-21038b35f3a8",
   "request_text": "Title: Inner shell excited clock state gate\nAbstract: Estimate achievable X-gate speeds and fidelities for a Yb-171 nuclear qubit using Raman transfer via a long-lived inner-shell J=2 intermediate (with 1 W/cm^2 available), limited by hyperfine splitting versus intermediate lifetime, and report gate-time vs target-infidelity tradeoffs (10^-2-10^-5).\nFull Description: I want to make a good X-gate for qubits encoded in the 3P0 state in Yb-171. This is a nuclear qubit with F=1/2, so exactly two states. We want to make X-gates via Raman transfer with some intermediate state. The fidelity of such an X-gate is limited by the ratio of the hyperfine splitting over the lifetime of the intermediate state. In Yb-171, there are inner-shell-excited clock states available, where one of the f-shell electrons is excited to a d-state. The J=2 state is accessible using a electric quadrupole transition. This is a weak transition, so hard to excite, but the payoff is that the lifetime of the inner-shell excited state is practically infinite. Say I have 1 W/cm^2 of laser power available at the appropriate wavelength, what fidelity and what gatespeeds can we accomplish? Ideally the gate should be as fast as possible, with, say, 10^-3 infidelity or better. Maybe make a table with gatespeeds and fidelity targets 10^-2, 10^-3, 10^-4 and 10^-5.\nProblem Type: Open Question\nDifficulty: Frontier\nDomain: Quantum Computing\nOriginator: Marius-Constantin Dinu\nCompute Budget: 1 APU, Apple Silicon, 128GB\nTarget Deadline: 2026-03-11\nTags: quantum computing\nCategories: Quantum Computing\nExpected Artifacts: Paper, Code\nRelated Links: https://exphy.hhu.de/fileadmin/redaktion/Fakultaeten/Mathematisch-Naturwissenschaftliche_Fakultaet/Physik/AG_Schiller/documents/Dzuba_et_al_Testing_physics_beyond_the_standard_model_through_additional_clock_transitions_in_neutral_ytterbium_2018.pdf, https://link.aps.org/accepted/10.1103/PhysRevLett.120.173001, https://link.aps.org/pdf/10.1103/PhysRevA.106.013712, https://arxiv.org/abs/2303.09765\nDataset Links: None",
-  "run_id": "35133559-cc56-4504-b79f-457cb41ea173",
+  "run_id": "a9abcc18-8270-4e8a-a874-e213e71cb77d",
   "session_id": "79511904-9604-483a-9afe-21038b35f3a8",
   "tags": [
     "quantum computing"
   ],
   "target_deadline": "2026-03-11",
   "title": "Inner shell excited clock state gate",
-  "updated_at": "2026-03-13T10:12:14.748966+00:00"
+  "updated_at": "2026-03-13T10:35:34.327533+00:00"
 }
