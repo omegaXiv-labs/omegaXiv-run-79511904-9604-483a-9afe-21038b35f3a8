@@ -1,0 +1,7 @@
+# Runtime dependencies
+# This package intentionally uses only the Python standard library.
+
+# Maintainer/dev dependencies used for local QA
+pytest>=8.0
+mypy>=1.8
+ruff>=0.5

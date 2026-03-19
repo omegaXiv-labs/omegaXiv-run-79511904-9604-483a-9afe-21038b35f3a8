@@ -1,0 +1,10 @@
+{
+  "handle": "yb171-raman-gate",
+  "distribution_name": "omegaxiv-yb171-raman-gate",
+  "version": "0.1.0",
+  "package_type": "library",
+  "import_name": "yb171_raman_gate",
+  "manifest_path": "packages/yb171-raman-gate/packaging_manifest.json",
+  "install_target": "file:///app/outputs/runs/a9abcc18-8270-4e8a-a874-e213e71cb77d/workspace/packages/yb171-raman-gate/dist/omegaxiv_yb171_raman_gate-0.1.0-py3-none-any.whl",
+  "status": "ready"
+}

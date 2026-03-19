@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel>=0.43"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omegaxiv-yb171-raman-gate"
+version = "0.1.0"
+description = "Reusable Yb-171 inner-shell Raman gate tradeoff APIs extracted from omegaXiv validation outputs."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "omegaXiv Packaging" }]
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Physics"
+]
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

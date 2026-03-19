@@ -1,0 +1,102 @@
+{
+  "EXP_H1_FC1_DETUNING_OPTIMUM_GRID": {
+    "id": "EXP_H1_FC1_DETUNING_OPTIMUM_GRID",
+    "seeds": [7, 19, 43, 101, 211],
+    "baselines": [
+      "BL1_scattering_only_detuning_heuristic",
+      "BL2_boundary_max_detuning_policy",
+      "BL3_boundary_min_detuning_policy",
+      "BL4_random_feasible_search",
+      "BL5_local_gradient_without_convex_surrogate"
+    ],
+    "metrics": [
+      "t_pi_us",
+      "epsilon_tot",
+      "epsilon_sc",
+      "epsilon_leak",
+      "epsilon_Stark",
+      "epsilon_ctrl",
+      "feasible_under_tau",
+      "surrogate_fit_r2",
+      "unimodality_pass_rate"
+    ],
+    "sweep_params": {
+      "detuning_hz": ["2.0e9", "4.0e9", "6.0e9", "8.0e9", "1.0e10", "1.2e10"],
+      "prior_scale": ["optimistic", "nominal", "conservative"],
+      "pulse_family": ["square", "blackman", "drag_like", "composite_k3"],
+      "tau_targets": ["1e-2", "1e-3", "1e-4", "1e-5"]
+    }
+  },
+  "EXP_H3_FC2_FEASIBILITY_FLOOR_STRESS": {
+    "id": "EXP_H3_FC2_FEASIBILITY_FLOOR_STRESS",
+    "seeds": [11, 29, 47, 89, 173],
+    "baselines": [
+      "BL1_optimistic_nominal_extrapolation",
+      "BL2_scattering_only_floor",
+      "BL3_deterministic_no_uncertainty_feasibility",
+      "BL4_interval_bound_linear_relaxation",
+      "BL5_uniform_random_uncertainty_sampling"
+    ],
+    "metrics": [
+      "epsilon_floor",
+      "tau_feasibility_rate",
+      "infeasible_target_count",
+      "assumption_violation_count",
+      "counterexample_count",
+      "required_improvement_factor"
+    ],
+    "sweep_params": {
+      "adversarial_budget": ["1e3_draws", "5e3_draws"],
+      "bound_mode": ["conservative", "nominal", "stress"],
+      "tau_targets": ["1e-2", "1e-3", "1e-4", "1e-5"],
+      "uncertainty_percentile": ["50", "75", "90", "95", "99"]
+    }
+  },
+  "EXP_H4_FC3_BAYES_CHANCE_CONSTRAINED_TABLE": {
+    "id": "EXP_H4_FC3_BAYES_CHANCE_CONSTRAINED_TABLE",
+    "seeds": [13, 31, 59, 97, 149],
+    "baselines": [
+      "BL1_deterministic_plugin_optimizer",
+      "BL2_map_plugin_without_chance_constraint",
+      "BL3_worst_case_robust_optimizer",
+      "BL4_cvar_constrained_optimizer",
+      "BL5_randomized_feasible_policy_search"
+    ],
+    "metrics": [
+      "T_tau_median_us",
+      "T_tau_ci90_width_us",
+      "posterior_predictive_coverage",
+      "out_of_sample_violation_rate",
+      "chance_constraint_satisfaction_rate",
+      "dominant_error_channel_entropy"
+    ],
+    "sweep_params": {
+      "alpha": ["0.05"],
+      "inference_method": ["hmc", "smc"],
+      "posterior_sample_count": ["2000", "5000", "10000"],
+      "tau_targets": ["1e-2", "1e-3", "1e-4", "1e-5"],
+      "discrepancy_scale": ["1.0", "2.5", "5.0"],
+      "noise_floor": ["1.0e-5", "2.5e-5"]
+    }
+  },
+  "EXP_INTEGRATED_UP1_EVIDENCE_ASSEMBLY": {
+    "id": "EXP_INTEGRATED_UP1_EVIDENCE_ASSEMBLY",
+    "seeds": [17, 37, 73, 109],
+    "baselines": [
+      "BL1_use_h1_only",
+      "BL2_use_h1_plus_h3",
+      "BL3_use_h1_plus_h4",
+      "BL4_simple_average_across_experiments"
+    ],
+    "metrics": [
+      "target_row_completeness",
+      "cross_experiment_consistency_score",
+      "final_recommendation_stability",
+      "evidence_traceability_coverage"
+    ],
+    "sweep_params": {
+      "aggregation_mode": ["strict_intersection", "weighted_consensus"],
+      "consistency_threshold": ["0.90", "0.95"]
+    }
+  }
+}

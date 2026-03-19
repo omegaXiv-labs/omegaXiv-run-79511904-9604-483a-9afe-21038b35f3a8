@@ -1,0 +1,5 @@
+tau,T_tau_median_us,T_tau_ci90_width_us,chance_constraint_satisfaction_rate,out_of_sample_violation_rate,dominant_error_channel_entropy
+1e-05,,,0.0,1.0,
+0.0001,,,0.0,1.0,
+0.001,,,0.0,1.0,
+0.01,0.20375381889532196,0.08031699440177707,0.9995638888888889,0.00043611111111111113,1.2689973949785278

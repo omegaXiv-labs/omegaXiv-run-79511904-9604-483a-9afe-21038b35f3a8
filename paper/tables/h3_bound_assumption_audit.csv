@@ -1,0 +1,4 @@
+bound_mode,bound_validity_rate,counterexample_count,monotone_pass_rate
+conservative,1.0,0,1.0
+nominal,1.0,0,1.0
+stress,1.0,0,1.0

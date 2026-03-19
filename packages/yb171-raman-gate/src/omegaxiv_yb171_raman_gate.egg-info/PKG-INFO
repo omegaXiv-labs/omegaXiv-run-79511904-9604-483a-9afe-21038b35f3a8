@@ -1,0 +1,82 @@
+Metadata-Version: 2.4
+Name: omegaxiv-yb171-raman-gate
+Version: 0.1.0
+Summary: Reusable Yb-171 inner-shell Raman gate tradeoff APIs extracted from omegaXiv validation outputs.
+Author: omegaXiv Packaging
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# yb171-raman-gate
+
+## Overview
+
+`yb171-raman-gate` is a reusable library package extracted from the omegaXiv UP1 validation implementation for Yb-171 inner-shell Raman X-gate tradeoff analysis. It exposes core model symbols for:
+
+- evaluating gate operating points (`t_pi`, decomposed error channels, total infidelity),
+- fitting the FC1-style surrogate objective over detuning,
+- generating thresholded fastest-feasible tradeoff rows for `tau` targets.
+
+The package is focused on reusable APIs, not experiment-runner orchestration.
+
+## Installation
+
+Canonical user installation flow:
+
+1. `pip install omegaxiv`
+2. `ox install yb171-raman-gate==0.1.0`
+
+Maintainer/dev-only source install (for local package QA):
+
+- `python -m pip install ./packages/yb171-raman-gate`
+
+## Configuration
+
+Typical configuration inputs:
+
+- `prior_scale`: one of `optimistic`, `nominal`, `conservative`
+- detuning grid (Hz), for example `[2.0e9, ..., 1.2e10]`
+- pulse families, for example `square`, `blackman`, `drag_like`, `composite_k3`
+- target thresholds, for example `[1e-2, 1e-3, 1e-4, 1e-5]`
+
+The model can be seeded for reproducible parameter/jitter draws.
+
+## Usage Examples
+
+```python
+from yb171_raman_gate import RamanGateModel, build_tradeoff_table
+
+model = RamanGateModel.from_prior_scale("nominal", seed=101)
+rows = build_tradeoff_table(
+    model=model,
+    detuning_grid_hz=[2.0e9, 4.0e9, 6.0e9, 8.0e9, 1.0e10, 1.2e10],
+    pulse_families=["square", "blackman", "drag_like", "composite_k3"],
+    tau_targets=[1e-2, 1e-3, 1e-4, 1e-5],
+    jitter_seed=13,
+)
+
+for row in rows:
+    print(row)
+```
+
+```python
+from yb171_raman_gate import RamanGateModel
+
+model = RamanGateModel.from_prior_scale("conservative", seed=7)
+point = model.evaluate(detuning_hz=8.0e9, pulse_family="drag_like", jitter_seed=17)
+print(point.epsilon_tot, point.dominant_error_channel)
+```
+
+## Troubleshooting
+
+- `ValueError: unsupported pulse_family`:
+  Use one of the exported pulse family keys from `PULSE_FACTORS`.
+- Non-finite surrogate optimum:
+  This indicates non-positive fitted `A` or `B`; inspect your sweep range and point quality.
+- No feasible rows for strict `tau`:
+  This is expected in conservative settings for very small target infidelities; widen detuning/pulse search or relax threshold.

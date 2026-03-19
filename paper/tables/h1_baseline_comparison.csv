@@ -1,0 +1,6 @@
+tau,baseline,median_t_pi_us,feasible_count
+0.01,BL1_scattering_only_detuning_heuristic,0.6777070118900929,60
+0.01,BL2_boundary_max_detuning_policy,0.6777070118900929,60
+0.01,BL3_boundary_min_detuning_policy,,0
+0.01,BL4_random_feasible_search,0.4751945280956321,25
+0.01,BL5_local_gradient_without_convex_surrogate,0.4083371300086432,232
